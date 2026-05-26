@@ -299,12 +299,14 @@ No projeto, o certificado SSL já está previsto na configuração da aplicaçã
 Configuração para execução com HTTPS:
 
 ```properties
+server.port=8443
+
 server.ssl.enabled=true
 server.ssl.key-store=classpath:fordcare.p12
-server.ssl.key-store-password=SUA_SENHA
+server.ssl.key-store-password=123456
 server.ssl.key-store-type=PKCS12
 server.ssl.key-alias=fordcare
-server.port=8443
+
 ```
 
 Configuração utilizada para desenvolvimento local sem HTTPS:
