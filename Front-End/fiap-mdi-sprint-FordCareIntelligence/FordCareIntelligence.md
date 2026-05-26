@@ -396,7 +396,7 @@ npx expo start
 
 ---
 
-# Demonstração em Vídeo
+# 🎥 Demonstração em Vídeo
 
 [Clique aqui para acessar o vídeo de demonstração do aplicativo](https://drive.google.com/file/d/1WD-UlHRWJlGkXgsY7aqlc03sTucWAggk/view?usp=drive_link)
 
@@ -416,7 +416,7 @@ npx expo start
 
 ---
 
-# Roadmap Futuro
+# 📈 Roadmap Futuro
 
 Com mais tempo, o grupo pretende implementar:
 
@@ -433,7 +433,7 @@ Com mais tempo, o grupo pretende implementar:
 
 ---
 
-# Qualidade e Compliance
+# 🛡️ Qualidade e Compliance
 
 O projeto foi desenvolvido considerando:
 
@@ -447,7 +447,7 @@ O projeto foi desenvolvido considerando:
 
 ---
 
-# Conclusão
+# 📌 Conclusão
 
 O FordCare Intelligence entrega uma proposta moderna de retenção e fidelização no pós-venda automotivo, utilizando inteligência preditiva, dashboards estratégicos, gestão de leads e arquitetura corporativa escalável.
 
