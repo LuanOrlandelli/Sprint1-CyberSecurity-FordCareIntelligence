@@ -1,5 +1,7 @@
 # FordCare Intelligence — Cybersecurity Compliance README
 
+[Link do Drive com os dois arquivos caso de algo de errado com o repositório](https://drive.google.com/drive/folders/1QcTbsf1jYTTBUdSYyRw9Wuc0dRlwIdxO?usp=sharing)
+
 ## Visão Geral
 
 O projeto **FordCare Intelligence** foi desenvolvido com foco em segurança desde a arquitetura inicial da solução. A plataforma combina aplicação mobile, API REST segura, controle de acesso corporativo, monitoramento operacional e proteção de dados sensíveis para atender aos requisitos da Sprint de Cybersecurity.
