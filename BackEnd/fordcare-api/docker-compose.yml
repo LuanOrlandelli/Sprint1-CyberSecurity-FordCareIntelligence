@@ -1,0 +1,37 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: fordcare-postgres
+
+    environment:
+      POSTGRES_DB: fordcare
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: .
+
+    container_name: fordcare-api
+
+    depends_on:
+      - postgres
+
+    ports:
+      - "8443:8443"
+
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/fordcare
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+
+volumes:
+  postgres_data:
